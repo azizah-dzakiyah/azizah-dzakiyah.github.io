@@ -1,0 +1,71 @@
+body {
+  background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+  font-family: 'Orbitron', sans-serif;
+  color: #00fff7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  width: 100%;
+}
+
+.input-wrapper input {
+  width: 100%; /* biar sejajar dengan box login */
+  padding: 10px;
+  font-size: 13px;
+  box-sizing: border-box; /* penting biar padding ga nambah lebar */
+}
+
+.login-container {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 30px;
+  border: 2px solid #00fff7;
+  border-radius: 10px;
+  text-align: center;
+  width: 300px;
+}
+
+input, button {
+  margin: 10px 0;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #00fff7;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+a {
+  color: #ff00c8;
+  text-decoration: none;
+  display: block;
+  margin-top: 10px;
+}
+
+.social-login button {
+  background-color: #ff00c8;
+  color: white;
+  margin-top: 5px;
+}
+
+button:hover {
+  background-color: #00c0b5;
+  transform: scale(1.03);
+}
+
+.social-login button:hover {
+  background-color: #cc009f;
+  transform: scale(1.03);
+}

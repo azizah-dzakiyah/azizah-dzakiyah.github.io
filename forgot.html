@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Lupa Password</title>
+  <link rel="stylesheet" href="css/forgot.css">
+  <link rel="stylesheet" href="css/notif.css"> <!-- Tambahan untuk notif -->
+</head>
+<body>
+  <div class="notif" id="notif">
+    Reset berhasil! Masukkan Username <strong>Azizah_Dzakiyah</strong> & Password <strong>hello world</strong>
+  </div>
+
+  <div class="container">
+    <h1>Lupa Password</h1>
+    <p>Masukkan informasi akun Anda untuk mereset password.</p>
+    <form id="resetForm">
+      <input type="text" placeholder="Username" required>
+      <input type="email" placeholder="Alamat Email" required>
+      <input type="text" placeholder="Kode Verifikasi" required>
+      <button type="submit">🔐 Reset Password</button>
+    </form>
+  </div>
+
+  <script src="js/notif.js"></script> <!-- Tambahan JS -->
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Azizah X RPL</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="login-container">
+    <div class="input-wrapper">
+    <h1>Azizah X RPL</h1>
+    <form id="loginForm">
+      <input type="text" id="username" placeholder="Username" required>
+      <input type="password" id="password" placeholder="Password" required>
+      <button type="submit">→ Login</button>
+    </form>
+
+    <div class="social-login">
+      <button onclick="redirectSocial('facebook')">Login with Facebook</button>
+      <button onclick="redirectSocial('gmail')">Login with Gmail</button>
+      <button onclick="redirectSocial('twitter')">Login with Twitter</button>
+    </div>
+
+    <a href="forgot.html">Lupa Password?</a>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
